@@ -184,10 +184,10 @@ tr:last-child td {
     border-bottom: none;
 }
 @media (max-width: 768px) {
-    body
-    {
+    body, html {
+        overflow: auto; 
         margin: 0;
-    }
+      }
     .container {
         position: fixed; 
         top: 0;
@@ -207,14 +207,14 @@ tr:last-child td {
         border-radius: 0px;
     }
     .title h1{
-        font-size: 50px;
+        font-size: 38px;
         padding: 25px;
         padding-top: 10px;
         padding-bottom: 0px;
     }
     .title p
     {
-        font-size: 22px;
+        font-size: 17px;
         padding: 25px;
         padding-top: 0;
     }
@@ -223,7 +223,13 @@ tr:last-child td {
     }
     .Instructions,.Nutrition,.Ingredients,.time
     {
+        /* padding: 20px; */
+        align-self: auto;
+        width: 75%;
+    }
+    .time{
         padding: 20px;
+
     }
 
 }
