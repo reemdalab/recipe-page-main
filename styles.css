@@ -185,7 +185,6 @@ tr:last-child td {
 }
 @media (max-width: 768px) {
     body, html {
-        overflow: auto; 
         margin: 0;
       }
     .container {
@@ -200,6 +199,8 @@ tr:last-child td {
         padding: 0px;
         border-radius: 0; 
         box-shadow: none; 
+        padding-bottom: 10px;
+
     }
     img
     {
@@ -222,13 +223,14 @@ tr:last-child td {
     }
     .Instructions,.Nutrition,.Ingredients,.time
     {
-        /* padding: 20px; */
         align-self: auto;
         width: 75%;
     }
     .time{
         padding: 20px;
-
     }
-
+    .solid
+    {
+        width: 80% ;
+    }
 }
